@@ -44,6 +44,7 @@ body {
   position: relative;
   display: block;
   top: 0;
+
 }
 
 
@@ -67,11 +68,13 @@ body {
   border-radius: 50%;
   height: 40px;
   width: 40px;
+
 }
 
 .heading-name {
   padding: 0 ;
   cursor: pointer;
+  color: #f7f7f7;
 }
 
 
@@ -340,7 +343,7 @@ body {
 }
 
 
-/*Reply*/
+
 
 .reply {
   height: 60px;
@@ -417,4 +420,25 @@ body {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%
+}
+@media screen and (max-width: 768px) {
+    
+.heading {
+  padding: 10px 16px 10px 15px;
+  margin: 0 ;
+  height: 60px;
+  width: 100%;
+  background-color: #eee;
+  z-index: 1000;
+  background-color: #1B5C1D;
+}
+.web {
+  position: relative;
+  overflow: hidden;
+  top: 1px;
+  padding: 0 ;
+
+}
+.heading-pic-icon img {
+  
 }
