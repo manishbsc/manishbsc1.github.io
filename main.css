@@ -1,7 +1,4 @@
-html,
-body,
-div,
-span {
+* {
   box-sizing: border-box;
 }
 
@@ -11,29 +8,29 @@ body {
 }
 
 .fa-2x {
-  font-size: 1.5em !important;
+  font-size: 1.5em ;
 }
 
-.app {
+.web {
   position: relative;
   overflow: hidden;
   top: 19px;
-  padding: 0 !important;
+  padding: 0 ;
 
 }
 
-.app-one {
+.web-one {
   background-color: #f7f7f7;
   height: 100%;
   overflow: hidden;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0 ;
+  padding: 0 ;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
 }
 
 .side {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
   height: 100%;
   background-color: red;
 }
@@ -49,25 +46,10 @@ body {
   top: 0;
 }
 
-.side-two {
-  padding: 0 !important;
-  margin: 0 !important;
-  height: 100%;
-  width: 100%;
-  z-index: 2;
-  position: relative;
-  top: -100%;
-  left: -100%;
-  -webkit-transition: left 0.3s ease;
-  transition: left 0.3s ease;
-
-
-}
-
 
 .heading {
   padding: 10px 16px 10px 15px;
-  margin: 0 !important;
+  margin: 0 ;
   height: 60px;
   width: 100%;
   background-color: #eee;
@@ -76,7 +58,7 @@ body {
 }
 
 .heading-pic {
-  padding: 0 !important;
+  padding: 0 ;
   cursor: pointer;
 
 }
@@ -88,21 +70,11 @@ body {
 }
 
 .heading-name {
-  padding: 0 !important;
+  padding: 0 ;
   cursor: pointer;
 }
 
-.heading-name-meta {
-  font-weight: 700;
-  font-size: 100%;
-  padding: 5px;
-  padding-bottom: 0;
-  text-align: left;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  color: #000;
-  display: block;
-}
+
 .heading-online {
   display: none;
   padding: 0 5px;
@@ -133,8 +105,8 @@ body {
 }
 
 .searchBox {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
   height: 60px;
   width: 100%;
 }
@@ -142,14 +114,9 @@ body {
 .searchBox-inner {
   height: 100%;
   width: 100%;
-  padding: 10px !important;
+  padding: 10px ;
   background-color: #fbfbfb;
 }
-
-
-/*#searchBox-inner input {
-  box-shadow: none;
-}*/
 
 .searchBox-inner input:focus {
   outline: none;
@@ -158,8 +125,8 @@ body {
 }
 
 .sideBar {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
   background-color: #fff;
   overflow-y: auto;
   border: 1px solid #f7f7f7;
@@ -168,10 +135,10 @@ body {
 
 .sideBar-body {
   position: relative;
-  padding: 10px !important;
+  padding: 10px ;
   border-bottom: 1px solid #f7f7f7;
   height: 72px;
-  margin: 0 !important;
+  margin: 0 ;
   cursor: pointer;
 }
 
@@ -181,7 +148,7 @@ body {
 
 .sideBar-pic {
   text-align: center;
-  padding: 0 !important;
+  padding: 0 ;
 }
 
 .pic-icon img {
@@ -191,51 +158,33 @@ body {
 }
 
 .sideBar-main {
-  padding: 0 !important;
+  padding: 0 ;
 }
 
 .sideBar-main .row {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
 }
 
 .sideBar-name {
-  padding: 10px !important;
+  padding: 10px ;
 }
 
-.name-meta {
-  font-size: 100%;
-  padding: 1% !important;
-  text-align: left;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  color: #000;
-}
 
 .sideBar-time {
-  padding: 10px !important;
+  padding: 10px ;
 }
-
-.time-meta {
-  text-align: right;
-  font-size: 12px;
-  padding: 1% !important;
-  color: rgba(0, 0, 0, .4);
-  vertical-align: baseline;
-}
-
-/*New Message*/
 
 .newMessage {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
   height: 100%;
   position: relative;
   left: -100%;
 }
 .newMessage-heading {
-  padding: 10px 16px 10px 15px !important;
-  margin: 0 !important;
+  padding: 10px 16px 10px 15px ;
+  margin: 0 ;
   height: 100px;
   width: 100%;
   background-color: #00bfa5;
@@ -243,10 +192,10 @@ body {
 }
 
 .newMessage-main {
-  padding: 10px 16px 0 15px !important;
-  margin: 0 !important;
+  padding: 10px 16px 0 15px ;
+  margin: 0 ;
   height: 60px;
-  margin-top: 30px !important;
+  margin-top: 30px ;
   width: 100%;
   z-index: 1001;
   color: #fff;
@@ -255,22 +204,22 @@ body {
 .newMessage-title {
   font-size: 18px;
   font-weight: 700;
-  padding: 10px 5px !important;
+  padding: 10px 5px ;
 }
 .newMessage-back {
   text-align: center;
   vertical-align: baseline;
-  padding: 12px 5px !important;
+  padding: 12px 5px ;
   display: block;
   cursor: pointer;
 }
 .newMessage-back i {
-  margin: auto !important;
+  margin: auto ;
 }
 
 .composeBox {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
   height: 60px;
   width: 100%;
 }
@@ -278,7 +227,7 @@ body {
 .composeBox-inner {
   height: 100%;
   width: 100%;
-  padding: 10px !important;
+  padding: 10px ;
   background-color: #fbfbfb;
 }
 
@@ -289,44 +238,41 @@ body {
 }
 
 .compose-sideBar {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
   background-color: #fff;
   overflow-y: auto;
   border: 1px solid #f7f7f7;
   height: calc(100% - 160px);
 }
 
-/*Conversation*/
+
 
 .conversation {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
   height: 100%;
-  /*width: 100%;*/
   border-left: 1px solid rgba(0, 0, 0, .08);
-  /*overflow-y: auto;*/
 }
 
 .message {
-  padding: 0 !important;
-  margin: 0 !important;
-  background: url("w.jpg") no-repeat fixed center;
+  padding: 0 ;
+  margin: 0 ;
   background-size: cover;
   overflow-y: auto;
   border: 1px solid #f7f7f7;
   height: calc(100% - 120px);
 }
 .message-previous {
-  margin : 0 !important;
-  padding: 0 !important;
+  margin : 0 ;
+  padding: 0 ;
   height: auto;
   width: 100%;
 }
 .previous {
   font-size: 15px;
   text-align: center;
-  padding: 10px !important;
+  padding: 10px ;
   cursor: pointer;
 }
 
@@ -336,35 +282,34 @@ body {
 }
 
 .message-body {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0 ;
+  padding: 0 ;
   width: auto;
   height: auto;
 }
 
 .message-main-receiver {
-  /*padding: 10px 20px;*/
   max-width: 60%;
 }
 
 .message-main-sender {
-  padding: 3px 20px !important;
-  margin-left: 40% !important;
+  padding: 3px 20px ;
+  margin-left: 40% ;
   max-width: 60%;
 }
 
 .message-text {
-  margin: 0 !important;
-  padding: 5px !important;
+  margin: 0 ;
+  padding: 5px ;
   word-wrap:break-word;
   font-weight: 200;
   font-size: 14px;
-  padding-bottom: 0 !important;
+  padding-bottom: 0 ;
 }
 
 .message-time {
-  margin: 0 !important;
-  margin-left: 50px !important;
+  margin: 0 ;
+  margin-left: 50px ;
   font-size: 12px;
   text-align: right;
   color: #9a9a9a;
@@ -372,8 +317,8 @@ body {
 }
 
 .receiver {
-  width: auto !important;
-  padding: 4px 10px 7px !important;
+  width: auto ;
+  padding: 4px 10px 7px ;
   border-radius: 10px 10px 10px 0;
   background: #ffffff;
   font-size: 12px;
@@ -384,10 +329,10 @@ body {
 
 .sender {
   float: right;
-  width: auto !important;
+  width: auto ;
   background: #dcf8c6;
   border-radius: 10px 10px 0 10px;
-  padding: 4px 10px 7px !important;
+  padding: 4px 10px 7px ;
   font-size: 12px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
   display: inline-block;
@@ -401,53 +346,53 @@ body {
   height: 60px;
   width: 100%;
   background-color: #f5f1ee;
-  padding: 10px 5px 10px 5px !important;
-  margin: 0 !important;
+  padding: 10px 5px 10px 5px ;
+  margin: 0 ;
   z-index: 1000;
 }
 
 .reply-emojis {
-  padding: 5px !important;
+  padding: 5px ;
 }
 
 .reply-emojis i {
   text-align: center;
-  padding: 5px 5px 5px 5px !important;
+  padding: 5px 5px 5px 5px ;
   color: #93918f;
   cursor: pointer;
 }
 
 .reply-recording {
-  padding: 5px !important;
+  padding: 5px ;
 }
 
 .reply-recording i {
   text-align: center;
-  padding: 5px !important;
+  padding: 5px ;
   color: #93918f;
   cursor: pointer;
 }
 
 .reply-send {
-  padding: 5px !important;
+  padding: 5px ;
 }
 
 .reply-send i {
   text-align: center;
-  padding: 5px !important;
+  padding: 5px ;
   color: #93918f;
   cursor: pointer;
 }
 
 .reply-main {
-  padding: 2px 5px !important;
+  padding: 2px 5px ;
 }
 
 .reply-main textarea {
   width: 100%;
   resize: none;
   overflow: hidden;
-  padding: 5px !important;
+  padding: 5px ;
   outline: none;
   border: none;
   text-indent: 5px;
@@ -469,7 +414,7 @@ body {
   margin: 0 auto;
   width: 50%;
   height: 50%;
-  -webkit-border-radius: 50%!important;
-  -moz-border-radius: 50%!important;
-  border-radius: 50%!important
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%
 }
